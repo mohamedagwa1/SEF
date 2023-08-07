@@ -1,0 +1,42 @@
+p {
+    margin: 0;
+}
+
+.accordion-wrapper .accordion-wrapper {
+    background-color: #000;
+    padding: 20px 15px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.accordion-wrapper .question-title {
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.accordion-wrapper .question-answer.open {
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+    transition: all 300ms;
+}
+
+.accordion-wrapper .question-answer.close {
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    
+}
+
+.accordion-wrapper .icons {
+    position: absolute;
+    right: 13px;
+    top: 30px;
+}
+
+.accordion-wrapper .icons .icon {
+    color: #ff0;
+    font-size: 20px;
+    cursor: pointer;
+}

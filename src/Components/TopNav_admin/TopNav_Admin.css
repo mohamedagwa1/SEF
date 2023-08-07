@@ -1,0 +1,50 @@
+.header-top-nav-admin{
+  background-color:var(--top-bg);
+  position: absolute;
+  width: 100%;
+  z-index:100;
+}
+.header-top-nav-admin .top-nav-link{
+    transition: var(--transition-1);
+}
+.header-top-nav-admin .top-nav-link:hover{
+    color: var(--Primary) !important;
+}
+.swal-wide{
+  height: 150px;
+  background-color: #ffffff29;
+  box-shadow: 0 0 100px 800px #00000060;
+  backdrop-filter: blur(5px);
+}
+.swal2-close{
+  color: var(--Primary);
+  border: 0 !important;
+  outline: 0 !important;
+}
+.swal2-close:focus{
+  outline: none;
+  border: none;
+}
+.swal2-close:hover{
+  color: var(--btn-hover);
+}
+.swal-style{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.swal-style a{
+  text-decoration: none;
+  background-color: var(--Primary);
+  width: 100px;
+  height: 40px;
+  line-height: 38px;
+  color: var(--white);
+  border-radius: 5px;
+  text-align: center;
+  transition: var(--transition-1);
+}
+.swal-style a:hover{
+  background-color: var(--btn-hover);
+}

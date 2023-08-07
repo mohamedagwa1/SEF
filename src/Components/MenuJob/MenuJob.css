@@ -1,0 +1,118 @@
+.menu-job-component1{
+    background-color: rgba(0, 0, 0, 0.19);
+    width: 362px;
+    height: 775px;
+    color: var(--white);
+    border-radius: 5px;
+  }
+  .menu-job-component1 .menu-section1 {
+    padding: 20px;
+  }
+  .menu-job-component1 .contacts-job1 {
+    background-color: rgba(0, 0, 0, 0.19);
+    width: 891px;
+    height: 775px;
+  }
+  .menu-job-component1 .fitter-container1 {
+    width: 310px;
+    height: 62px;
+    background-color: rgba(17, 17, 17, 0.56);
+  }
+  /* .filter {
+  } */
+  .menu-job-component1 .clear-all1 {
+    color: var(--Primary);
+    border-radius: 5px;
+  }
+  /* .location-form {
+    width: 100%;
+    color: #fff;
+  } */
+  /*--------Select form*/
+  .menu-job-component1 .form-select1 {
+    width: 95%;
+    height: 49px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgba(86, 85, 85, 0.079);
+    --bs-form-select-bg-img: url(data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3e%3cpath fill=%27none%27 stroke=%27%23343a40%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27m2 5 6 6 6-6%27/%3e%3c/svg%3e);
+
+    border-color: #00000000 !important;
+    border-bottom: 1px solid #efefef !important;
+  }
+
+  .menu-job-component1 .form-select:focus {
+    background-color: rgba(86, 85, 85, 0.079);
+    text-align: center;
+    background-color: rgba(217, 217, 217, 0.17);
+    border-color: #00000000 !important;
+    outline: 0;
+    transition: all 0.3s ease-in;
+  }
+  .menu-job-component1 option.options-location {
+    color: #fff;
+    background-color: #292828 !important;
+  }
+  /* Check boxs */
+  .menu-job-component1 .form-check-input{background-color: transparent;
+    border-color: var(--white);}
+  .menu-job-component1 .form-check-input:checked {
+    background-color: #fd9d0d;
+  }
+
+  .menu-job-component1 .input-group {
+    width: 80%;
+  }
+  .menu-job-component1 .input-group-text {
+    text-align: center;
+
+    background-color: var(--Primary);
+    width: 30%;
+    color: #fff !important;
+    font-weight: var(--fw-600);
+    justify-content: center;
+  }
+  .menu-job-component1 input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: red;
+  }
+
+  .menu-job-component1 .mainLoginInput::-webkit-input-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: var(--Primary);
+  }
+
+  .menu-job-component1 .mainLoginInput::-moz-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: hsl(9, 40%, 60%);
+  }
+
+  .menu-job-component1 .mainLoginInput:-ms-input-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: hsl(9, 40%, 60%);
+  }
+.select-sidebar{
+  background-color: rgba(128, 128, 128, 0.438) !important;
+  border: none !important;
+}

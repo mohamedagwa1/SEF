@@ -1,0 +1,291 @@
+.job-screen-show1 {
+  background: url('../../assets/images/secondary_background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--white);
+  height: 100%;
+}
+.job-screen-show1 .btn {
+  color: var(--white);
+  font-weight: var(--fw-600);
+}
+.job-screen-show1 .btn:hover {
+  color: var(--white) !important;
+  background-color: var(--btn-hover) !important;
+}
+
+.job-screen-show1 .job-title {
+  margin-bottom: 40px;
+}
+.job-screen-show1 .job-title1 div {
+  width: 6.5%;
+  height: 1px;
+  margin-top: 5px;
+  background-color: var(--Primary);
+}
+
+.job-screen-show1 .bg-layer1 {
+  background: linear-gradient(
+    180deg,
+    rgba(24, 24, 24, 0.89) 0%,
+    rgba(27, 26, 26, 0.93) 47.92%,
+    #1a1919 100%
+  );
+  padding-top: 180px;
+  padding-bottom: 20px;
+}
+.job-screen-show1 .Looking-job1 span {
+  display: block;
+  width: 78%;
+}
+
+.job-screen-show1 .form-control {
+  width: 70%;
+  border-radius: 5px 0px 0px 5px / 5px 0px 0px 5px;
+  display: inline-block;
+  margin-top: 30px;
+  height: 47px;
+  background-color: rgba(217, 217, 217, 0.17);
+  border: 0;
+}
+
+.job-screen-show1 .form-inline .btn {
+  height: 47px;
+  width: 30%;
+  border: 0;
+  background-color: var(--btn-defauit);
+  outline: 0;
+  border-radius: 0% 5px 5px 0% / 0% 5px 5px 0%;
+  vertical-align: baseline;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.job-screen-show1 .input-group {
+  width: 80%;
+}
+.job-screen-show1 .input-group-text {
+  text-align: center;
+  background-color: var(--Primary);
+  width: 30%;
+  color: #fff !important;
+  font-weight: var(--fw-600);
+  justify-content: center;
+}
+.job-screen-show1 .input.empty {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  color: red;
+}
+.job-screen-show1 .loctaion-icon1 {
+  font-size: 20px;
+}
+.job-screen-show1 .time-icon {
+  color:   rgba(129, 127, 127, 1);
+  font-size: 28px;
+}
+.job-screen-show1 .mainLoginInput::-webkit-input-placeholder {
+  font-family: var(--font-family);
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 15px;
+  font-size: 20px;
+  color: var(--Primary);
+}
+
+.job-screen-show1 .menu-job1 {
+  flex: 30%;
+  background-color: rgba(0, 0, 0, 0.19);
+
+  padding: 20px;
+  height: 90%;
+  border-radius: 5px;
+}
+.job-screen-show1 .menu-section1 {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.19);
+}
+
+.job-screen-show1 .fitter-container1 {
+  width: 95%;
+  height: 62px;
+  background-color: rgba(17, 17, 17, 0.56);
+}
+
+.job-screen-show1 .clear-all1 {
+  color: var(--Primary);
+  border-radius: 5px;
+}
+
+.job-screen-show1 .form-select1 {
+  width: 95%;
+  height: 49px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: rgba(86, 85, 85, 0.079);
+  --bs-form-select-bg-img: url(data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3e%3cpath fill=%27none%27 stroke=%27%23343a40%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27m2 5 6 6 6-6%27/%3e%3c/svg%3e);
+
+  border-color: #00000000 !important;
+  border-bottom: 1px solid #efefef !important;
+}
+
+.job-screen-show1 .form-select:focus {
+  background-color: rgba(86, 85, 85, 0.079);
+  text-align: center;
+  background-color: rgba(217, 217, 217, 0.17);
+  border-color: #00000000 !important;
+  outline: 0;
+  transition: all 0.3s ease-in;
+}
+.job-screen-show1 option.options-location {
+  color: #fff;
+  background-color: #292828 !important;
+}
+/* Check boxs */
+.job-screen-show1 .form-check-input:checked {
+  background-color: var(--Primary);
+}
+.job-screen-show1 .logo-comp1 img {
+  display: inline-block;
+  width: 66px;
+  height: 50px;
+}
+
+.job-screen-show1 .contacts-job1 {
+  background-color: rgba(0, 0, 0, 0.19);
+  flex: 70%;
+  height: 90%;
+  padding: 20px;
+}
+
+.job-screen-show1 span img {
+  width: 66px;
+  height: 50px;
+}
+.job-screen-show1 .onsite {
+  text-align: end;
+}
+.job-screen-show1 .content-onsite1 {
+  font-size: 15px;
+  font-weight: 400;
+}
+.job-screen-show1 .onsite-icon1 {
+  color: var(--Primary);
+  margin-right: 5px;
+}
+.job-screen-show1 .search-key1 span button {
+  color: var(--white);
+}
+.search-key1{
+  display: flex;
+
+}
+.job-screen-show1 .btn-apply1 {
+  text-align: end;
+}
+.job-screen-show1 .btn-apply1 button {
+  width: 20%;
+  background-color: var(--Primary) !important;
+  border: 0;
+}
+.job-screen-show1 .posted-time1 .icon1 {
+  font-size: 34px;
+  color: #817f7f;
+}
+.job-screen-show1 .posted-time1 {
+  font-size: 16px;
+  font-weight: 700;
+}
+@media (max-width: 767px) {
+  .job-screen-show1 .form-control {
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  .job-screen-show1 .btn {
+    width: 100%;
+    border-radius: 5px;
+  }
+}
+.job-screen-show1 .form-inline .bar-icon1 {
+  display: none;
+}
+.job-screen-show1 .onsite-mob-view1 {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .job-screen-show1 .menujobshow{
+      display: none;
+  }
+  .job-screen-show1 .form-inline {
+    margin-top: 10px;
+  }
+  .job-screen-show1 .form-inline input {
+    width: 345px;
+    border-radius: 5px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  .job-screen-show1 .form-inline button {
+    width: 300px !important;
+    border-radius: 5px !important;
+  }
+  .job-screen-show1 .form-inline .bar-icon1 {
+    display: inline;
+    background-color: rgba(17, 17, 17, 0.56);
+    width: 55px;
+    height: 51px;
+    color: var(--Primary);
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 6px;
+  }
+
+  .job-screen-show1 .menu-job1 {
+    display: none;
+  }
+  .job-screen-show1 .contacts-job1{
+    flex-shrink: 0;
+    width: 353px;
+    height: 1015px;
+  }
+  .job-screen-show1 .btn-apply1 button {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .job-screen-show1 .comp-name1 {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+  .job-screen-show1 .onsite-web-view1 {
+    display: none;
+  }
+  .job-screen-show1 .onsite-mob-view1 {
+    display: inline;
+    margin-left: 4px;
+  }
+  .job-screen-show1 .minmiz-font1 {
+    font-size: 15px;
+  }
+  .job-screen-show1 .job-company-post1 span {
+    display: block;
+  }
+}
+@media (max-width: 991px) {
+  .job-screen-show1 .Looking-job1{
+    margin-left: 10px;
+  }
+  .job-screen-show1 .menujobshow{
+    display: none;
+}
+  .job-screen-show1 .bg-layer1 {
+    background-position: 50%;
+  }
+}

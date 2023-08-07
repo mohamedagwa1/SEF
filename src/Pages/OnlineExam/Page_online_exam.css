@@ -1,0 +1,213 @@
+.online-exam-page .page {
+  margin: auto;
+  color: #d0d0d0;
+  background-image: url('../../assets/images/secondary_background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: 20px;
+}
+.online-exam-page .overlay {
+  background-color: rgba(0, 0, 0, 0.786);
+  height: 100%;
+  width: 100%;
+  padding-top: 40px;
+}
+.online-exam-page .exam-content {
+  padding-right: 40px;
+  width: 90%;
+  margin: auto;
+  margin-top: 200px;
+  font-weight: 500;
+}
+.online-exam-page .exam-head span {
+  display: inline-block;
+  padding: 1px 0;
+}
+.online-exam-page .exam-head .instructor {
+  color: #bf9b30;
+  margin-right: 7px;
+}
+.online-exam-page .exam-head .exam-name {
+  font-size: 44px;
+  padding-top: 8px;
+  margin-bottom: 3px;
+  padding-right: 40px;
+}
+.online-exam-page .exam-head .online-exam-line {
+  background-color: #d0d0d0;
+  width: 100px;
+  height: 2px;
+  opacity: 1;
+  margin: 6px 0;
+  padding: 0;
+}
+.online-exam-page .exam-info {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.online-exam-page .right {
+  /* min-width: 600px; */
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.online-exam-page .right > div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  padding-bottom: 25px;
+}
+.online-exam-page .right .right-icon {
+  margin-right: 20px;
+  color: #bf9b30;
+}
+.online-exam-page .Questions {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.online-exam-page .question {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 40px;
+  padding-left: 40px;
+  border-radius: 10px;
+}
+.online-exam-page .question .question-header {
+  font-size: 24px;
+  padding-right: 5px;
+}
+.online-exam-page .question .choose {
+  margin-top: 15px;
+  width: 50%;
+}
+.online-exam-page .question .choose .choose-item {
+  display: inline-block;
+  padding: 12px 15px;
+  width: 100%;
+  background-color: rgba(57, 57, 57, 0.9);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 15px;
+}
+.online-exam-page .question .img {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.online-exam-page .question .img img {
+  width: 100%;
+  max-height: 300px;
+  padding-right: 40px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.online-exam-page .question .marks {
+  width: 100%;
+}
+.online-exam-page .question .marks p {
+  display: block;
+  width: 100px;
+  text-align: center;
+  margin-left: auto;
+}
+.online-exam-page .Submit {
+  width: 100%;
+  padding: 40px 0;
+}
+.online-exam-page .Submit .btns {
+  margin-left: auto;
+  width: 410px;
+}
+.online-exam-page .Submit .btns input {
+  margin-left: 40px;
+  padding: 8px 50px;
+  border-radius: 10px;
+  background-color: #8f8f8f;
+  color: white;
+  cursor: pointer;
+}
+
+.online-exam-page .Submit .btns .second-btn {
+  background-color: #bf9b30;
+}
+/* progress bar */
+.online-exam-page #progress-bar {
+  background-color: #bf9b30;
+}
+.online-exam-page #progress {
+  background-color: #d0d0d0;
+  height: 9px;
+}
+.online-exam-page .progress-timer {
+  display: block;
+  width: 63px;
+  margin-left: auto;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 20px;
+  padding-bottom: 5px;
+}
+@media screen and (max-width: 992px) {
+  .online-exam-page .exam-content {
+    width: 90%;
+    padding-right: 0;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .online-exam-page .exam-head .exam-name {
+    font-size: 30px;
+    padding: 12px 0;
+    margin-bottom: 3px;
+  }
+  .online-exam-page .exam-info {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  .online-exam-page .right {
+    width: 100%;
+    grid-gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 20px;
+  }
+  .online-exam-page .right > div {
+    border-radius: 10px;
+  }
+  .online-exam-page .first {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .online-exam-page .question .choose {
+    width: 90%;
+  }
+  .online-exam-page .question .img img {
+    max-height: 200px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .online-exam-page .Submit .btns {
+    width: 100%;
+    flex-direction: column !important;
+  }
+  .online-exam-page .Submit .btns input {
+    margin-left: 0px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 100%;
+  }
+}

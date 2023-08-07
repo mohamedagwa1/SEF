@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/SEF/static/css/main.8c5915d3.css",
+    "main.js": "/SEF/static/js/main.e12b2c53.js",
+    "static/js/498.ab915da1.chunk.js": "/SEF/static/js/498.ab915da1.chunk.js",
+    "static/js/703.efade8f6.chunk.js": "/SEF/static/js/703.efade8f6.chunk.js",
+    "static/js/541.1277b31a.chunk.js": "/SEF/static/js/541.1277b31a.chunk.js",
+    "static/js/787.0a61d966.chunk.js": "/SEF/static/js/787.0a61d966.chunk.js",
+    "static/media/main_background.jpg": "/SEF/static/media/main_background.04f65620805223b2bdf3.jpg",
+    "static/media/secondary_background.jpg": "/SEF/static/media/secondary_background.08ed22c75db74a19b698.jpg",
+    "static/media/fa-solid-900.ttf": "/SEF/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/SEF/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/SEF/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/SEF/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/seff_logo_transparent.png": "/SEF/static/media/seff_logo_transparent.fea5d68a3bfadd5b989d.png",
+    "static/media/fa-regular-400.ttf": "/SEF/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/Flag_of_Egypt.png": "/SEF/static/media/Flag_of_Egypt.33485ea3c6e7cb869dc4.png",
+    "static/media/Rectangle 60.png": "/SEF/static/media/Rectangle 60.b2a1f5968044db4a0773.png",
+    "static/media/fa-regular-400.woff2": "/SEF/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/it.jpg": "/SEF/static/media/it.1948a265ff7cae41d080.jpg",
+    "static/media/seff_logo_black.jpg": "/SEF/static/media/seff_logo_black.3da9ca9ed292f52d921f.jpg",
+    "static/media/fa-v4compatibility.ttf": "/SEF/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/SEF/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/SEF/index.html",
+    "main.8c5915d3.css.map": "/SEF/static/css/main.8c5915d3.css.map",
+    "main.e12b2c53.js.map": "/SEF/static/js/main.e12b2c53.js.map",
+    "498.ab915da1.chunk.js.map": "/SEF/static/js/498.ab915da1.chunk.js.map",
+    "703.efade8f6.chunk.js.map": "/SEF/static/js/703.efade8f6.chunk.js.map",
+    "541.1277b31a.chunk.js.map": "/SEF/static/js/541.1277b31a.chunk.js.map",
+    "787.0a61d966.chunk.js.map": "/SEF/static/js/787.0a61d966.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c5915d3.css",
+    "static/js/main.e12b2c53.js"
+  ]
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+:root{
+    /* Colors */
+    --Primary: #BF9B30;
+    --secondary:#EDD587;
+    --Green: #34A853;
+    --Red: #ea4335;
+    --Grey: Grey;
+    --black: #1B1A1AED;
+    --white:#fff;
+    --alpha-bg:#1515167e;
+    --top-bg: #1B1A1AED;
+    --footer-bg:#1A1A1A;
+    --content-bg:#2a2a2a;
+    --exam-today:#D9D9D91C;
+    --course:#1111118F;
+    --main-bg:#212121;
+    --footer-clr:#141313;
+    --main-clr:#1a1919;
+    --overlay:-webkit-linear-gradient(top,rgba(26,25,25,0.8),rgba(26,25,25,1));
+    --login-bg:#2f2f2f;
+    --form-bg:#252525;
+    --input-bg:#414040;
+    --password-eye:#676767;
+
+
+
+    /* Colors of Button */
+    --btn-defauit: #BF9B30;
+    --btn-hover: #e7bc3c;
+    --btn-disabled: #e1e1e1;
+
+    /* Transition */
+    --transition-1: all 0.4s ease;
+
+    /* Font-family */
+    --font-family: 'Open Sans', sans-serif;
+    --font-semiBold: 600px;
+    --font-regular: 400px;
+
+    /* font-weight */
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+
+    /* typography */
+    --h1-48: 48px;
+    --h1-50: 50px;
+    --h1-52: 52px;
+    --h1-54: 54px;
+    --h1-56: 56px;
+    --h1-58: 58px;
+    --h1-60: 60px;
+
+    --h2-34: 34px;
+    --h2-36: 36px;
+    --h2-38: 38px;
+    --h2-40: 40px;
+    --h2-42: 42px;
+    --h2-44: 44px;
+    --h2-46: 46px;
+    --h2-48: 48px;
+    --h2-50: 50px;
+
+    --h4-18:18px;
+    --h4-20:20px;
+    --h4-22:22px;
+
+    --p-14:14px;
+    --p-16:16px;
+    --p-18:18px;
+    --p-20:20px;
+    --p-22:22px;
+    --p-24:24px;
+}
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(250, 244, 244);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color:var(--Primary);
+  border-radius: 20px;
+}

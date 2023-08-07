@@ -1,0 +1,29 @@
+/* body{height: 3000px;} */
+.job-card-component  {
+  background-color: rgba(26, 25, 25, 0.8) !important;
+
+  color: white !important;
+}
+.job-card-component .btn1 {
+  background-color: var(--btn-defauit) !important;
+  border: none !important;
+}
+.job-card-component .card-text  {
+  line-height: 10px !important;
+}
+.job-card-component .btn2 {
+  background: transparent !important;
+  border-color: var(--Primary) !important;
+  float: "right";
+}
+
+.job-card-component .itlogo {
+  width: 3.3rem;
+  height: 40px;
+}
+.job-card-component  {
+  font-weight: var(--fw-400);
+}
+.job-card-component .card-subtitle {
+  font-size: var(--p-14);
+}

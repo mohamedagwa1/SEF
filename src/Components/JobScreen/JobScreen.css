@@ -1,0 +1,78 @@
+@import '//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css';
+.job-screen1 {
+  background-color: var(--Top-bg);
+  font-family: var(--font-family);
+  background-color: transparent;
+  color: #1b1b1b;
+}
+.job-screen1 .contentjobscreen{
+  color: var(--white);
+}
+.job-screen1 .contentjobscreen h2{
+  font-weight: 700;
+}
+.job-screen1 .form-control {
+  width: 70%;
+  border-radius: 5px 0px 0px 5px / 5px 0px 0px 5px;
+  display: inline-block;
+}
+.job-screen1 .btn-subscribe1{
+  font-size: 16px;
+}
+.job-screen1 .btn:hover {
+  background-color: var(--btn-hover);
+}
+@media (max-width: 767px) {
+  .job-screen1 .form-control {
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  .job-screen1 .btn1 {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .job-screen1 .jobs-details1 {
+    text-align: left !important;
+  }
+  .job-screen1 .menu-job1 {
+    display: none;
+  }
+}
+.job-screen1 .input-sub1 {
+  background: rgba(128, 128, 128, 0.438);
+  border: none;
+  color: var(--white);
+  border-radius: 6px;
+}
+
+.job-screen1 .input-sub1:focus {
+  border: 1px solid var(--btn-defauit);
+  box-shadow: none;
+  background-color: var(--Gradient-bg);
+  color: var(--white);
+}
+.job-screen1 .btn-subscribe1 {
+  background-color: var(--btn-defauit);
+  border: 0px;
+  font-weight: var(--fw-600);
+  text-transform: uppercase;
+  font-size: 16px;
+  /* padding: 10px 20px; */
+  box-shadow: none;
+  margin-left: -15px !important;
+  border-radius: 6px;
+  transition: var(--transition-1);
+  text-align: center;
+}
+
+.job-screen1 .btn-subscribe1:focus,
+.job-screen1 .btn-subscribe1:hover {
+  background-color: var(--btn-hover) !important;
+}
+
+.job-screen1 .input-sub1::placeholder {
+  color: white;
+  font-size: 20px;
+}

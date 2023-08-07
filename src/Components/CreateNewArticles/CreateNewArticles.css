@@ -1,0 +1,96 @@
+.create-news-articles {
+    color: white;
+    background-image: url('../../assets/images/secondary_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.create-news-articles .icon-cloud{
+    width: 66.78px;
+    height: 59.59px;
+    color: var(--btn-defauit);
+}
+.create-news-articles .overlay {
+    background: linear-gradient(180deg, rgba(24, 24, 24, 0.89) 0%, rgba(27, 26, 26, 0.93) 47.92%,rgba(26, 25, 25, 1)100%);
+    padding-top: 200px;
+
+}
+.create-news-articles .line {
+    height: 1.8px;
+    background-color: var(--Primary);
+    margin-top: 10px;
+}
+.create-news-articles .line-1 {
+    width: 162px;
+}
+.create-news-articles .line-2 {
+    width: 225px;
+}
+.create-news-articles .content {
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+}
+
+.create-news-articles .content .side-bar {
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.40);
+
+}
+.create-news-articles .admin-information {
+        width: 70%;
+}
+.create-news-articles .add-article-and-btn-publish {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    position: relative;
+    padding: 20px 0;
+}
+.create-news-articles .btn-edit {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-transform: uppercase;
+    background-color: var(--btn-defauit) !important;
+    border: 0 !important;
+    transition: var(--transition-1);
+    -webkit-transition: var(--transition-1);
+    -moz-transition: var(--transition-1);
+    -ms-transition: var(--transition-1);
+    -o-transition: var(--transition-1);
+    padding: 10px 50px !important;
+}
+.create-news-articles .btn-edit:hover {
+    background-color: var(--btn-hover) !important;
+}
+@media (max-width:1140px) {
+
+    .create-news-articles .line-1 {
+        width: 89px;
+    }
+    .create-news-articles .line-2 {
+        display: none;
+    }
+
+    .create-news-articles .admin-information {
+        width: 100%
+    }
+}
+@media (max-width:767px) {
+
+    .create-news-articles .content .side-bar {
+      display: none;
+
+    }
+    .create-news-articles {
+        background-position: 50%;
+
+    }
+    .create-news-articles .btn-edit {
+        display: none !important;
+    }
+}

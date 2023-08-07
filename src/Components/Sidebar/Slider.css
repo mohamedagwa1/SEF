@@ -1,0 +1,15 @@
+.sidebar-header {
+  background-color: rgba(0, 0, 0, 0.262) !important;
+  border-radius: 5px;
+}
+.font-s-20{
+  font-size: 20px !important;
+}
+.sidebar-bg{
+  background-color: var(--alpha-bg)!important;
+  
+  }
+  .sidebar-header a ,
+  .sidebar li ul a{
+    width: fit-content;
+  }

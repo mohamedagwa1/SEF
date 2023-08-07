@@ -1,0 +1,444 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+.job-app-screen_1 .bg-layer {
+  background: linear-gradient(180deg, rgba(24, 24, 24, 0.89) 0%, rgba(27, 26, 26, 0.93) 47.92%, #1A1919 100%);
+  padding-top: 180px;
+  padding-bottom: 20px;
+}
+.job-app-screen_1 .line {
+  width: 70px;
+  height: 2px;
+  background-color: var(--Primary);
+}
+
+.job-app-screen_1 .txt-bold {
+  font-weight: bold;
+}
+.job-app-screen_1 .filter {
+  font-size: 20px;
+}
+/* apply job */
+.job-app-screen_1 .contacts-job {
+  position: relative;
+  background: rgba(0, 0, 0, 0.19) !important;
+}
+
+.job-app-screen_1 .btn {
+  color: #fff;
+  font-weight: var(--fw-600);
+  text-transform: uppercase;
+  height: 40px !important;
+  width: 148px !important;
+}
+
+.job-app-screen_1 .btn:hover {
+  color: #fff !important;
+  background-color: var(--btn-hover) !important;
+}
+
+.job-app-screen_1 .job-screen {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: var(--font-family);
+}
+
+/*Search section */
+
+.job-app-screen_1 .form-control {
+  width: 70%;
+  border-radius: 5px 0px 0px 5px / 5px 0px 0px 5px;
+  display: inline-block;
+  border: 2px solid rgba(217, 217, 217, 0.17);
+}
+
+.job-app-screen_1 .form-inline .btn {
+  width: 30%;
+  border: none;
+  background-color: var(--btn-defauit);
+  border-radius: 0;
+  -webkit-border-radius: 0% 5px 5px 0% / 0% 5px 5px 0%;
+  -moz-border-radius: 0% 5px 5px 0% / 0% 5px 5px 0%;
+  -ms-border-radius: 0% 5px 5px 0% / 0% 5px 5px 0%;
+  -o-border-radius: 0% 5px 5px 0% / 0% 5px 5px 0%;
+  border-radius: 0% 5px 5px 0% / 0% 5px 5px 0%;
+  vertical-align: baseline;
+}
+.job-app-screen_1 .form-inline input[type="search"]{
+  color: #fff !important;
+  padding-left: 40px;
+  height: 47px;
+  font-size: 20px;
+}
+.job-app-screen_1 .form-inline input[type="search"]::placeholder{
+  color: #fff !important;
+}
+.job-app-screen_1 .form-inline .btn{
+  height: 47px !important;
+}
+
+.job-app-screen_1 .input-group {
+  width: 80%;
+}
+
+.job-app-screen_1 .input-group-text {
+  text-align: center;
+  background-color: var(--Primary);
+  width: 30%;
+  color: #fff !important;
+  font-weight: var(--fw-600);
+  justify-content: center;
+}
+
+.job-app-screen_1 input.empty {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  color: #ff0000;
+}
+.job-app-screen_1 .mainLoginInput::-webkit-input-placeholder,.mainLoginInput::-moz-placeholder {
+  font-family: FontAwesome;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+}
+.job-app-screen_1 .mainLoginInput::-webkit-input-placeholder{
+  color: var(--Primary);
+}
+.job-app-screen_1 .mainLoginInput::-moz-placeholder{
+  color: #c27c70;
+}
+
+.job-app-screen_1 .mainLoginInput:-ms-input-placeholder {
+  font-family: FontAwesome;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: #c27c70;
+}
+
+.job-app-screen_1 .menu-job {
+  flex: 30%;
+  background-color: rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  height: 90%;
+  border-radius: 5px;
+}
+
+.job-app-screen_1 .menu-section {
+  padding: 20px;
+}
+
+.job-app-screen_1 .fitter-container {
+  width: 95%;
+  height: 62px;
+  background-color: rgba(17, 17, 17, 0.56);
+}
+
+.job-app-screen_1 .clear-all {
+  color: var(--Primary);
+  border-radius: 5px;
+}
+
+.job-app-screen_1 .form-select {
+  width: 95%;
+  height: 49px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: rgba(217, 217, 217, 0.17);
+  --bs-form-select-bg-img: url(data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3e%3cpath fill=%27none%27 stroke=%27%23343a40%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27m2 5 6 6 6-6%27/%3e%3c/svg%3e);
+  border-color: #00000000 !important;
+  border-bottom: 1px solid #efefef !important;
+}
+.job-app-screen_1 .job-titel {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.job-app-screen_1 .form-select:focus {
+  background-color: rgba(86, 85, 85, 0.079);
+  text-align: center;
+  background-color: rgba(217, 217, 217, 0.17);
+  border-color: #00000000 !important;
+  outline: 0;
+  transition: all 0.3s ease-in;
+}
+
+.job-app-screen_1 option.options-location {
+  color: #fff;
+  background-color: #292828 !important;
+}
+
+/* Check boxs */
+.job-app-screen_1 .form-check-input:checked {
+  background-color: rgba(191, 155, 48, 1) !important;
+}
+
+.job-app-screen_1 .logo-comp img {
+  display: inline-block;
+  width: 66px;
+  height: 50px;
+}
+/* Contacts Job*/
+.job-app-screen_1 .contacts-job {
+  background-color: rgba(0, 0, 0, 0.19) !important;
+  flex: 70% 1;
+  height: 100%;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+.job-app-screen_1 .small-style-text{
+  color: rgba(51, 51, 51, 1);
+}
+.job-app-screen_1 span img {
+  width: 66px;
+  height: 50px;
+}
+
+.job-app-screen_1 .onsite {
+  text-align: end;
+}
+
+.job-app-screen_1 .onsite-icon {
+  color: var(--Primary);
+  margin-right: 5px;
+}
+
+.job-app-screen_1 .btn-apply {
+  text-align: end;
+}
+
+.job-app-screen_1 .btn-apply button {
+  width: 20%;
+  background-color: var(--Primary) !important;
+}
+
+.job-app-screen_1 .form-inline .bar-icon {
+  display: none;
+}
+
+.job-app-screen_1 .onsite-mob-view {
+  display: none;
+}
+
+.job-app-screen_1 .input-job {
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  height: 35px;
+  padding: 5px;
+  font-size: 20px;
+  color: white !important;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.job-app-screen_1 .input-job:focus {
+  color: #fff;
+  background-color: rgba(217, 217, 217, 0.17) !important;
+}
+/* job app screen*/
+.job-app-screen_1 .upload-cv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 445px;
+  height: 202px;
+  padding: 20px;
+  border: 2px dashed var(--Primary);
+
+}
+
+.job-app-screen_1 .fa-2xl{
+font-size: 70px;
+color: var(--Primary);
+}
+.job-app-screen_1 .upload-cv .spcial-style {
+  color: var(--Primary);
+  border-bottom: 1px solid var(--Primary);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.job-app-screen_1 .upload-cv .drag-drop-txt {
+  font-size: 12px;
+  color: gray;
+  margin-top: -10px;
+}
+.job-app-screen_1 .btn-submit-app{
+position: absolute;
+right: 15px !important;
+bottom: 15px !important;
+}
+.job-app-screen_1 .btn-submit-app .btn-warning {
+  background-color: var(--Primary);
+}
+
+.job-app-screen_1 .filed-appliction input {
+  width: 320px;
+  height: 44px;
+  background-color: rgba(217, 217, 217, 0.17);
+  border-radius: 5px;
+  border: none;
+}
+
+.job-app-screen_1 .filed-appliction label {
+  display: block;
+}
+
+.job-app-screen_1 .filed-appliction input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.job-app-screen_1 .filed-appliction input::-moz-placeholder {
+  color: #fff;
+}
+
+.job-app-screen_1 .filed-appliction input:-ms-input-placeholder {
+  color: #fff;
+}
+
+.job-app-screen_1 .email-field {
+  width: 485px;
+}
+
+.job-app-screen_1 .fields label {
+  display: block;
+}
+.job-app-screen_1 .search-icon{
+  left: 20px;
+}
+/* Tablet View */
+@media (max-width: 991px) {
+
+  .job-app-screen_1 .Welcome_instructor {
+    background-position: 50%;
+  }
+
+  .job-app-screen_1 .bg-layer {
+
+    background-position: 50%;
+  }
+
+}
+
+/* Mobile View */
+@media (max-width: 767px) {
+  .job-app-screen_1 .contacts-job{
+    /* margin: auto; */
+  }
+  .job-app-screen_1 .filed-appliction form div label {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  .job-app-screen_1 .filed-appliction input {
+    width: 320px;
+    height: 44px;
+    background-color: rgba(217, 217, 217, 0.17);
+    border-radius: 5px;
+    border: none;
+  }
+
+  .job-app-screen_1 .upload-cv {
+    background-color: rgba(24, 24, 24, 0.89);
+    border: 1px dotted var(--Primary);
+    width: 314px;
+    height: 207px;
+    background-color: rgba(0, 0, 0, 0.19) !important;
+  }
+
+  .job-app-screen_1 .btn-submit-app span {
+    text-align: center;
+    margin: 20px 0 5px !important;
+  }
+
+  .job-app-screen_1 .btn-submit-app button {
+    width: 310px;
+    margin-top: 5px;
+    text-align: center;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 767px) {
+  .job-app-screen_1 .form-inline {
+    margin-top: 10px;
+  }
+
+  .job-app-screen_1 .form-inline input {
+    width: 345px;
+    border-radius: 5px;
+    height: 40px;
+    border-radius: 5px;
+  }
+
+  .job-app-screen_1 .form-inline button {
+    width: 300px !important;
+    border-radius: 5px !important;
+  }
+
+  .job-app-screen_1 .form-inline .bar-icon {
+    display: inline;
+    background-color: rgba(17, 17, 17, 0.56);
+    width: 55px;
+    height: 51px;
+    color: var(--Primary);
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 6px;
+  }
+
+  .job-app-screen_1 .menu-job {
+    display: none;
+  }
+
+  .job-app-screen_1 .contacts-job {
+    flex-shrink: 0;
+    width: 353px;
+    height: 1015px;
+  }
+
+  .job-app-screen_1 .btn-apply button {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .job-app-screen_1 .comp-name {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+
+  .job-app-screen_1 .onsite-web-view {
+    display: none;
+  }
+
+  .job-app-screen_1 .onsite-mob-view {
+    display: inline;
+    margin-left: 4px;
+  }
+
+  .job-app-screen_1 .minmiz-font {
+    font-size: 15px;
+  }
+
+  .job-app-screen_1 .job-company-post span {
+    display: block;
+  }
+  .job-app-screen_1 .btn-submit-app{
+    display: flex;
+    flex-direction: column-reverse;
+    }
+}

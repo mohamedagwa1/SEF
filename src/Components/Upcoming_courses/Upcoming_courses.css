@@ -1,0 +1,155 @@
+.upcoming_courses{
+    background-color: var(--footer-bg);
+    padding-bottom: 50px;
+}
+.upcoming_courses h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.57px;
+    color: var( --white);
+    text-transform: capitalize;
+
+}
+.upcoming_courses .courses-instructor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+
+}
+.upcoming_courses .one-course{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--course);
+    flex-wrap: wrap;
+}
+.upcoming_courses .one-course .content{
+  padding: 15px 15px 15px 20px;
+
+}
+.upcoming_courses .one-course Button{
+    text-transform: capitalize;
+        background-color: var(--btn-defauit)!important;
+        border: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19.36px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: -15px;
+        margin-left:150px;
+}
+.upcoming_courses .one-course .content .icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.upcoming_courses .one-course .content .icon .icon-span{
+    display: flex;
+    flex-direction: row;
+
+    padding-top: 10px;
+
+}
+.upcoming_courses .one-course .content .icon span{
+    font-size:14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    color: var(--white);
+}
+.upcoming_courses .one-course .image{
+    background: linear-gradient(180deg, rgba(245, 244, 244, 0.788) 42.19%, rgba(207, 207, 207, 0.281) 100%);
+    border-radius: 5px 0px 0px 5px;
+    width: 196px;
+    text-align: center;
+    margin-right: 10px;
+    position: relative;
+
+}
+.upcoming_courses .one-course .image .icon{
+    width: 98px;
+    height: 162px;
+    color:  #919191;
+}
+
+.upcoming_courses .one-course .image p{
+    position: absolute;
+    color: var(--white);
+    margin-top: -40px;
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.05px;
+}
+.upcoming_courses .one-course .content .icon .icon-cal{
+    color: var( --Primary);
+    width: 14px;
+    height: 17px;
+    margin-right: 10px;
+}
+.upcoming_courses .one-course .content h2{
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+}
+@media (max-width:400px ) and (min-width:200px){
+    .upcoming_courses .one-course{
+        margin-bottom: 30px;
+    }
+    .upcoming_courses .one-course .image p{
+
+        margin-top: 140px;
+        margin-left: 0px;
+
+    }
+    .upcoming_courses .one-course Button{
+
+            margin-top: 20px;
+            margin-left:140px;
+    }
+    .upcoming_courses .one-course .image{
+        margin: 20px;
+        width: 90%;
+        height: 35%;
+   }
+    .upcoming_courses .one-course .content{
+        padding: 15px 15px 70px 20px;
+    }
+
+
+
+}
+
+@media(max-width:991px) and (min-width:400px){
+    .upcoming_courses .one-course .image p{
+
+        margin-top: 140px;
+        margin-left: 0px;
+
+    }
+    .upcoming_courses .one-course Button{
+
+            margin-top: 20px;
+            margin-left:200px;
+    }
+    .upcoming_courses .one-course .image{
+        margin: 20px;
+        width: 90%;
+        height: 35%;
+   }
+    .upcoming_courses .one-course .content{
+        padding: 15px 15px 70px 20px;
+    }
+    .upcoming_courses .one-course{
+        margin-bottom: 30px;
+    }
+    .upcoming_courses{
+        margin-top: -14rem;
+    }
+}

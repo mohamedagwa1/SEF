@@ -1,0 +1,78 @@
+.sidebar-edit-profile .sidebar-header {
+  background-color: rgba(0, 0, 0, 0.262) !important;
+}
+
+.sidebar-edit-profile .font-s-20 {
+  font-size: 20px !important;
+}
+
+.sidebar-edit-profile .sidebar-bg {
+  background-color: var(--alpha-bg) !important;
+
+}
+
+.sidebar-edit-profile ul li {
+  margin-bottom: 25px;
+}
+
+.sidebar-edit-profile Table {
+  width: 100% !important;
+  margin: auto;
+}
+
+.sidebar-edit-profile td {
+
+  background-color: transparent !important;
+  color: white !important;
+  border: 0 !important;
+}
+.sidebar-edit-profile input{
+  outline: none;
+  border: 0;
+  background-color: rgba(217, 217, 217, 0.17);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  height: 35px;
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+  padding: 0 10px;
+  width: 100%;
+}
+.sidebar-edit-profile .icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 4px 0 8px 0;
+  gap: 12px;
+}
+.sidebar-edit-profile table tr{
+  vertical-align: middle;
+}
+ .sidebar-edit-profile .h6-mail{
+   margin-left: 10px;
+ }
+ .sidebar-edit-profile .phone-icon{
+   color: var(--Primary);
+
+  }
+  .sidebar-edit-profile .content-icon{
+   margin-left: 32px;
+   font-size: 13px;
+  }
+  @media(max-width:992px){
+
+    .sidebar-edit-profile .phone-icon{
+      color: var(--Primary);
+
+     }
+     .sidebar-edit-profile .content-icon{
+      margin-left: 32px;
+      font-size: 13px;
+     }
+
+  }
+

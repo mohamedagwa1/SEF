@@ -1,0 +1,82 @@
+/* .exams-component .line{
+  border-bottom: 1px solid #EDD587;
+  width: 89px;
+} */
+.exams-component{
+    background-image: url('../../assets/images/secondary_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    z-index: 0 !important;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.exams-component .title{
+  position: relative;
+  width: fit-content;
+}
+.exams-component .title::before{
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 2px;
+  background-color: var(--secondary);
+  left: 0;
+  bottom: 0px;
+}
+.exams-component .container{
+  margin-top: 120px;
+}
+ .exams-component .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1!important;
+    background: var(--overlay);
+}
+.exams-component .icon{
+  color: #BF9B30;
+}
+.exams-component  .upcomming-det{
+    background-color: #00000030;
+    padding: 10px;
+  }
+.exams-component  .instructor_span{
+    color: #BF9B30;
+  }
+.exams-component .pagination li a{
+    background: transparent;
+    border: none;
+    color: #fff;
+    gap: -1;
+ }
+ .exams-component .pagination li a:hover{
+    background-color:var(--Primary);
+    color: #fff;
+ }
+ .exams-component .btn-secondary {
+  background-color: var(--password-eye) !important;
+ }
+ .exams-component .btn-secondary:hover{
+  background-color: #676767c6 !important
+ }
+ @media(max-width:992px){
+   .exams-component .upcomming-det{
+    padding: 10px;
+   }
+   .exams-component .btn{
+    width: 100%;
+   }
+   .exams-component .finish-btn{
+    display: block !important;
+   }
+   .exams-component .pagination{
+    display: none;
+   }
+ }

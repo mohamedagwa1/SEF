@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+}
+.create-updtae-user{
+    background-image: url(../../assets/images/secondary_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.create-updtae-user .pdx{
+    background: linear-gradient(180deg, rgba(24, 24, 24, 0.89) 0%, rgba(27, 26, 26, 0.93) 47.92%, #1A1919 100%);
+    width: 100%;
+    padding-top: 10em;
+    padding-bottom: 15px;
+}
+
+.create-updtae-user .side-bar-header p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    color: var(--white);
+    margin-bottom: 8px;
+    text-transform: capitalize;
+
+}
+.create-updtae-user .side-bar-header {
+    margin: 50px 0;
+}
+.create-updtae-user .form-content .form-label{
+    color: var(--white);
+}
+.create-updtae-user .hr-header{
+ height: 1px;
+ width: 9.5%;
+ background-color: var(--secondary);
+ margin-bottom: 8px;
+
+}
+.create-updtae-user Button{
+    text-transform: uppercase;
+    background-color: var(--btn-defauit)!important;
+    border: 0;
+    width: 121px;
+    height: 38px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+.create-updtae-user Button:hover{
+    background-color: var(--btn-hover)!important;
+}
+.create-updtae-user .form-header{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.create-updtae-user .form-header h2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    color: var(--white);
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    border-bottom: 1px var(--secondary) solid;
+}
+.create-updtae-user .input-form{
+    background-color: rgba(217, 217, 217, 0.17);
+    border: 0 !important;
+    border-radius: 5px;
+
+
+}
+
+.create-updtae-user .input-form.first-name{
+    width: 270px;
+    height: 44px;
+
+}
+
+.create-updtae-user .input-form.status{
+    width: 240px;
+    height: 44px;
+}
+
+.create-updtae-user .input-form.email{
+    width: 510px;
+    height: 44px;
+}
+.create-updtae-user .input-form.role{
+    width: 293px;
+    height: 44px;
+
+}
+.create-updtae-user .input-form.mobile{
+    width: 400px;
+    height: 44px;
+}
+.create-updtae-user .action-form{
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+}
+.create-updtae-user .cancel{
+    background-color:rgba(157, 157, 157, 1)!important ;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: var(--white);
+    text-transform: uppercase;
+    border: 0;
+    width: 121px;
+    height: 38px;
+    margin-right: 10px;
+
+}
+.create-updtae-user .cancel:hover{
+  background-color: rgb(202, 201, 201)!important;
+}
+.create-updtae-user .save_publish{
+    display: none;
+    text-transform: uppercase;
+    background-color: var(--btn-defauit)!important;
+    border: 0;
+    width: 121px;
+    height: 38px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: var(--white);
+}
+.create-updtae-user .save{
+    background-color:var(--btn-defauit);
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: var(--white);
+    text-transform: uppercase;
+    border: 0;
+    width: 121px;
+    height: 38px;
+}
+@media(max-width:992px)and (min-width:300px){
+    .create-updtae-user{
+        background-position: 50%;
+    }
+    .create-updtae-user .cancel{
+
+        width: 100%;
+        order: 2;
+
+    }
+    .create-updtae-user .save_publish{
+        width:100%;
+        margin-right: 10px;
+        order:1;
+        margin-bottom: 19px;
+        display: block;
+    }
+
+    .create-updtae-user .save{
+
+       display: none;
+
+    }
+    .create-updtae-user .btn-form{
+       display: none;
+    }
+    .create-updtae-user .form-header h2{
+
+        border-bottom: 0;
+    }
+    .create-updtae-user{
+      background-position: 50%;
+    }
+    .create-updtae-user .input-form{
+        margin-bottom: 10px;
+    }
+    .create-updtae-user .form-content {
+        background-color: var(--course);
+        padding: 20px 15px;
+    }
+    .create-updtae-user .input-form.first-name{
+        width: 300px;
+
+
+    }
+
+    .create-updtae-user .input-form.status{
+        width: 300px;
+
+    }
+
+    .create-updtae-user .input-form.email{
+        width: 300px;
+
+    }
+    .create-updtae-user .input-form.role{
+        width: 300px;
+
+
+    }
+    .create-updtae-user .input-form.mobile{
+        width: 300px;
+
+    }
+    .create-updtae-user .hr-header{
+        width: 25%;
+       }
+
+
+}
+@media(max-width:992px)and (min-width:390px){
+    .create-updtae-user{
+        background-position: 50%;
+    }
+
+    .create-updtae-user .cancel{
+
+        width: 100%;
+        order: 2;
+
+    }
+
+    .create-updtae-user .save_publish{
+        width:100%;
+        margin-right: 10px;
+        order:1;
+        margin-bottom: 19px;
+        display: block;
+    }
+
+    .create-updtae-user .save{
+
+       display: none;
+
+    }
+    .create-updtae-user .btn-form{
+       display: none;
+    }
+    .create-updtae-user .form-header h2{
+
+        border-bottom: 0;
+    }
+    .create-updtae-user{
+      background-position: 50%;
+    }
+    .create-updtae-user .input-form{
+        margin-bottom: 10px;
+    }
+    .create-updtae-user .form-content {
+        background-color: var(--course);
+        padding: 20px 15px;
+    }
+    .create-updtae-user .input-form.first-name{
+        width: 340px;
+
+
+    }
+
+    .create-updtae-user .input-form.status{
+        width: 340px;
+
+    }
+
+    .create-updtae-user .input-form.email{
+        width: 340px;
+
+    }
+    .create-updtae-user .input-form.role{
+        width: 340px;
+
+
+    }
+    .create-updtae-user .input-form.mobile{
+        width: 340px;
+
+    }
+    .create-updtae-user .hr-header{
+        width: 25%;
+       }
+    }
+
+    @media(max-width:992px)and (min-width:400px){
+        .create-updtae-user{
+            background-position: 50%;
+        }
+        .create-updtae-user .cancel{
+
+            width: 100%;
+            order: 2;
+
+        }
+        .create-updtae-user .save_publish{
+            width:100%;
+            margin-right: 10px;
+            order:1;
+            margin-bottom: 19px;
+            display: block;
+        }
+
+        .create-updtae-user .save{
+
+           display: none;
+
+        }
+        .create-updtae-user .btn-form{
+           display: none;
+        }
+        .create-updtae-user .form-header h2{
+
+            border-bottom: 0;
+        }
+        .create-updtae-user{
+          background-position: 50%;
+        }
+        .create-updtae-user .input-form{
+            margin-bottom: 10px;
+        }
+        .create-updtae-user .form-content {
+            background-color: var(--course);
+            padding: 20px 15px;
+        }
+        .create-updtae-user .input-form.first-name{
+            width: 350px;
+
+
+        }
+
+        .create-updtae-user .input-form.status{
+            width: 350px;
+
+        }
+
+        .create-updtae-user .input-form.email{
+            width: 350px;
+
+        }
+        .create-updtae-user .input-form.role{
+            width: 350px;
+
+
+        }
+        .create-updtae-user .input-form.mobile{
+            width: 350px;
+
+        }
+        .create-updtae-user .hr-header{
+            width: 25%;
+           }
+        }

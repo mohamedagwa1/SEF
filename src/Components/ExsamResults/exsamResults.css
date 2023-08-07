@@ -1,0 +1,148 @@
+.exams-result-component{
+  background-color: rgba(0, 0, 0, 0.19);
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+      padding-top: 100px;
+
+}
+.exams-result-component{
+  background-color: rgb(34, 33, 33);
+  color: #fff;
+  font-family: var(--font-family);
+}
+
+.exams-result-component .line {
+  width: 89px;
+  border: 0.25px solid var(--Primary);
+}
+.exams-result-component .gold-color {
+  color: var(--Primary);
+}
+.exams-result-component .date-section {
+  max-width: 550px;
+  padding: 20px;
+  background-color: #00000040;
+  border-radius: var(--radious);
+}
+/*Line*/
+.exams-result-component .long-line {
+  width: 100%;
+  margin: auto;
+  border: 5px solid var(--Primary);
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.exams-result-component .time-Exsam {
+  /* width: 100%; */
+  height: 39px;
+  font-weight: var(--fw-600);
+  font-size: 24px;
+}
+
+/* second container  */
+
+.exams-result-component svg {
+  max-width: 80%; /* могут быть любыми */
+  max-height: 80%;
+  font-size: 24px;
+}
+.exams-result-component .view-answers {
+  background: var(--Primary);
+  border: none;
+  color: #fff;
+  width:60%;
+  height: 45px;
+  margin-left: auto !important;
+}
+.exams-result-component .view-answers:hover {
+  background: var(--btn-hover);
+}
+@media (max-width: 767px) {
+  .exams-result-component .cricle {
+    display: flex;
+    justify-content: center;
+  }
+  .exams-result-component .view-answers {
+    width: 265.49px;
+    height: 45px;
+  }
+  .exams-result-component .final-scor {
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+}
+
+}
+@media (max-width: 396px) {
+  .exams-result-component .cricle {
+    display: flex;
+    justify-content: center;
+  }
+}
+/* Secore details section*/
+.exams-result-component .score-details-section {
+  padding: 40px;
+}
+
+/* final results */
+.exams-result-component .score-details {
+  /* font-size: 24px; */
+  font-weight: var(--font-semiBold);
+  background-color: rgba(0, 0, 0, 0.19);
+  padding: 35px;
+}
+.exams-result-component .score-results {
+  max-width: 560px;
+  font-size: 24px;
+}
+
+.exams-result-component .final-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.exams-result-component .final-scor {
+  background-color: rgba(17, 17, 17, 0.56);
+  width: 317px;
+  height: 62px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--radius);
+}
+@media (min-width: 576px) {
+  .exams-result-component .final-scor {
+    background-color: rgba(17, 17, 17, 0.56);
+    min-width: 100%;
+    min-height: 68px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  /* .final-row {
+    width: 345px;
+    height: 157px;
+    margin-top: 2rem;
+  } */
+}
+
+@media (max-width: 767px) {
+  .exams-result-component .score-results {
+    max-width: 560px;
+    font-size: 16px !important;
+  }
+  .exams-result-component .score-details {
+    padding: 8px 5px;
+  }
+  .exams-result-component .score-details-section {
+    padding: 8px;
+}
+.exams-result-component .final-scor{
+  font-size: 16px !important;
+}
+}

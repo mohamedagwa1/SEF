@@ -1,0 +1,51 @@
+.sidebar-user-profile .sidebar-header {
+  background-color: rgba(0, 0, 0, 0.262) !important;
+}
+.sidebar-user-profile .font-s-20{
+  font-size: 20px !important;
+}
+.sidebar-user-profile .sidebar-bg{
+  background-color: var(--alpha-bg)!important;
+
+  }
+  .sidebar-user-profile ul li{
+    margin-bottom: 25px;
+  }
+  .sidebar-user-profile Table{
+width: 80% !important;
+margin: auto;
+  }
+  .sidebar-user-profile td{
+
+    background-color: transparent !important;
+    color:white !important;
+border: 0 !important;
+  }
+.sidebar-user-profile .icons{
+ display: flex;
+ justify-content: flex-start;
+}
+.sidebar-user-profile .h6-mail{
+  margin-left: 10px;
+}
+ .sidebar-user-profile .phone-icon{
+  color: var(--Primary);
+
+ }
+ .sidebar-user-profile .content-icon{
+  margin-left: 32px;
+  font-size: 13px;
+ }
+ @media(max-width:992px){
+
+    .sidebar-user-profile .phone-icon{
+     color: var(--Primary);
+
+    }
+    .sidebar-user-profile .content-icon{
+     margin-left: 32px;
+     font-size: 13px;
+    }
+
+ }
+

@@ -1,0 +1,14 @@
+.sidebar-create-news .sidebar-header {
+  background-color: rgba(0, 0, 0, 0.262) !important;
+  border-radius: 4px;
+}
+.sidebar-create-news .font-s-20{
+  font-size: 20px !important;
+}
+.sidebar-create-news .sidebar-bg{
+  background-color: var(--alpha-bg)!important;
+  
+  }
+  .sidebar-create-news a{
+    width: fit-content;
+  }

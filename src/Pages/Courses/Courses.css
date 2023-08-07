@@ -1,0 +1,98 @@
+.button {
+  background-color: #bf9b30;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 7px !important;
+  transition: all .4s ease;
+}
+.button:hover {
+  background-color: #e7bc3c !important;
+}
+.card {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.19);
+}
+.card .card{
+  border: 0;
+}
+
+.card-img-overlay {
+  background: url(../../assets/images/Rectangle\ 60.png);  
+  color: white;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.title {
+  font-size: 1.5rem;
+}
+
+.main-color {
+  color: #ff9900;
+}
+
+
+.card .button {
+  width: 95%;
+  background-color: #bf9b30;
+  border: none;
+  text-align: center;
+}
+.jobs {
+  color: #fff;
+  line-height: 15px;
+}
+.card .img {
+  padding: 1rem 1rem 0 1rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 235px 134px;
+}
+.card .card-link {
+  color: white !important;
+  font-weight: 600;
+}
+/* .row {
+  justify-content: space-evenly;
+} */
+   /* Media Query for mobile view */
+   @media (max-width: 767px) {
+    .search-container {
+       width: 100%;
+       margin-top: 10px;
+    }
+ 
+    .search-icon {
+       right: 10px;
+    }
+    .other{
+      gap: 14px;
+    }
+    }
+    #search {
+    background: rgba(187, 186, 186, 0.189);
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 12px 85px;
+    width: 100%;
+    outline: 0;
+    }
+    #search::placeholder {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    }
+    .search-container {
+    position: relative;
+    display: inline-block;
+    }
+
+    .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    }
+
+    

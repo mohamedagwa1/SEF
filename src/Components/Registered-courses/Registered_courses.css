@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.Registered_courses_Student{
+    background-color: var(--footer-bg);
+    min-height: 100vh;
+    padding-top: 50px ;
+    padding-bottom: 20px;
+}
+.Registered_courses_Student .Courses-exam{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.Registered_courses_Student h2{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.57px;
+    color: var(--white);
+}
+.Registered_courses_Student .course{
+    margin-top:30px ;
+    background-color: var(--course);
+    border-radius: 5px;
+    padding: 15px;
+
+}
+.Registered_courses_Student .courses{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:545px ;
+
+
+
+
+}
+.Registered_courses_Student .course h2{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    color: var(--white);
+    text-transform: capitalize;
+}
+.Registered_courses_Student .course p{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: var(--white);
+}
+.Registered_courses_Student .exam-time span{
+    color: var(--white);
+}
+.Registered_courses_Student .level-btn{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.Registered_courses_Student .icon-instructor{
+    margin-left: 9rem;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.Registered_courses_Student .icon-instructor span{
+    color: var(--white);
+    font-weight: 700;
+    line-height: 19.36px;
+    text-transform: capitalize;
+}
+.Registered_courses_Student .level-btn h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.05px;
+    text-transform: uppercase;
+}
+.Registered_courses_Student Button{
+        text-transform: uppercase;
+        background-color: var(--btn-defauit)!important;
+        border: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19.36px;
+   }
+.Registered_courses_Student Button:hover{
+        background-color: var(--btn-hover)!important;
+    }
+
+ .Registered_courses_Student .U-exams{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+
+}
+.Registered_courses_Student .U-exams .course-exam{
+    padding-left: 15px;
+}
+.Registered_courses_Student .U-exams .course-exam h2{
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    color: var(--white);
+    text-transform: capitalize;
+}
+
+.Registered_courses_Student .U-exams .course-exam p{
+
+    margin-bottom: 0;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: var(--white);
+    padding-bottom: 10px;
+}
+.Registered_courses_Student .U-exams .course-exam span{
+    color: var(--Primary);
+}
+.Registered_courses_Student .U-exams .course-exam .level-icon .exam-time span{
+    color: var(--white);
+}
+.Registered_courses_Student .U-exams .exam {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Registered_courses_Student .level-icon{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.Registered_courses_Student .level-icon h2{
+    font-weight: 700;
+    font-size:16px;
+    line-height: 19.36px;
+    text-transform: capitalize;
+}
+.Registered_courses_Student .level-icon .icon-exam{
+ font-size: 34px;
+ color: #817F7F;
+ margin-left: 1rem;
+ margin-right: 1rem;
+ position: relative;
+ top: 9px;
+}
+.Registered_courses_Student .level-icon span{
+    color: var(--white);
+}
+
+.Registered_courses_Student .course span{
+    color: var(--Primary);
+}
+.Registered_courses_Student .date-exam{
+    background-color: var(--course);
+    text-align: center;
+    border-radius: 5px;
+
+
+}
+.Registered_courses_Student .date-exam .day{
+    background-color: var(--Primary);
+    color: var(--white);
+    border-radius: 0px 0px 5px 5px;
+    margin-top: 10px;
+    font-weight: 600;
+    padding-left: 24.75px;
+    padding-right: 24.75px;
+
+
+
+}
+
+.Registered_courses_Student .date-exam p{
+    color: var(--white);
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 24.2px;
+}
+.Registered_courses_Student .date-exam .first-p{
+    font-weight: 700;
+}
+.Registered_courses_Student .date-exam .second-p{
+    font-weight: 400;
+}
+.Registered_courses_Student .edit-instructor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Registered_courses_Student .edit-instructor .edit-icon{
+    color: var(--Primary);
+    font-size: 20.01px;
+    margin-left: 25px;
+}
+.Registered_courses_Student .instructor-user{
+    color: var(--Primary);
+    font-size: 24px;
+    margin-top: -15px;
+    margin-right: 10px;
+}
+.Registered_courses_Student .display-responsive{
+    display: none;
+}
+
+
+@media ( min-width:300px) and (max-width:400px){
+ .Registered_courses_Student .display-responsive{
+    display:block;
+}
+.Registered_courses_Student .display{
+    display: none;
+}
+.Registered_courses_Student .instructor-p{
+    padding-top: 40px;
+}
+.Registered_courses_Student .U-exams {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.Registered_courses_Student .courses {
+    /* margin-top: 15rem; */
+}
+    .Registered_courses_Student .courses h2 {
+        /* margin-bottom: -30px; */
+    }
+    .Registered_courses_Student .course {
+        /* margin-bottom: -40px; */
+    }
+    .Registered_courses_Student .icon-instructor{
+        margin-left: 0;
+        margin-top: 5px;
+        margin-right: 0;
+    }
+
+
+    .Registered_courses_Student .level-btn h2{
+
+        font-size: 18px;
+        text-transform: capitalize;
+
+    }
+    .Registered_courses_Student .level-btn Button{
+
+        font-size: 14px;
+
+    }
+
+    .Registered_courses_Student .U-exams .course-exam h2{
+
+        font-size: 18px;
+
+    }
+    .Registered_courses_Student .icon-instructor span{
+       font-size: 14px;
+    }
+    .Registered_courses_Student .instructor-user{
+
+        font-size: 20px;
+        margin-top: -10px;
+
+
+    }
+    .Registered_courses_Student .date-exam .day{
+
+        padding-left:15px;
+        padding-right: 15px;
+
+
+
+    }
+    .Registered_courses_Student .level-icon .icon-exam{
+        font-size: 28px;
+
+       }
+
+
+
+}
+
+
+@media (max-width:991px) and (min-width:400px) {
+    .Registered_courses_Student .display-responsive{
+    display:block;
+}
+.Registered_courses_Student .display{
+    display: none;
+}
+.Registered_courses_Student .instructor-p{
+    padding-top: 40px;
+}
+
+
+.Registered_courses_Student .courses h2{
+        margin-bottom: -30px;
+    }
+    .Registered_courses_Student .course{
+        margin-bottom: -40px;
+    }
+    .Registered_courses_Student .icon-instructor{
+        margin-left: 0;
+        margin-top: 5px;
+        margin-right: 0;
+    }
+
+
+    .Registered_courses_Student .level-btn h2{
+
+        font-size: 18px;
+        text-transform: capitalize;
+
+    }
+    .Registered_courses_Student .level-btn Button{
+
+        font-size: 14px;
+
+    }
+
+    .Registered_courses_Student .U-exams .course-exam h2{
+
+        font-size: 20px;
+
+    }
+    .Registered_courses_Student .icon-instructor span{
+       font-size: 14px;
+    }
+    .Registered_courses_Student .U-exams{
+        margin-top: -63rem;
+        margin-bottom: 17rem;
+
+    }
+    .Registered_courses_Student .courses{
+        margin-top: 17rem;
+        margin-bottom: 10rem;
+
+
+    }
+    .Registered_courses_Student .instructor-user{
+
+        font-size: 20px;
+        margin-top: -10px;
+
+
+    }
+    .Registered_courses_Student .level-icon .icon-exam{
+        font-size: 28px;
+
+       }
+
+
+
+
+
+
+}

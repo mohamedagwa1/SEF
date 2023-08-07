@@ -1,0 +1,161 @@
+.news-article-form{
+    display: flex;
+    flex-direction: column;
+}
+.news-article-form .btn-edit {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-transform: uppercase;
+    background-color: var(--btn-defauit) !important;
+    border: 0 !important;
+    transition: var(--transition-1);
+    -webkit-transition: var(--transition-1);
+    -moz-transition: var(--transition-1);
+    -ms-transition: var(--transition-1);
+    -o-transition: var(--transition-1);
+    padding: 10px 50px !important;
+}
+.news-article-form  .btn-save,
+.news-article-form  .btn-cancle {
+    text-transform: uppercase;
+    background-color: var(--btn-defauit) !important;
+    border: 0 !important;
+    transition: var(--transition-1);
+    -webkit-transition: var(--transition-1);
+    -moz-transition: var(--transition-1);
+    -ms-transition: var(--transition-1);
+    -o-transition: var(--transition-1);
+    padding: 10px 40px !important;
+    width: 150px;
+}
+.news-article-form .btn-cancle {
+    background-color: rgba(157, 157, 157, 1) !important;
+}
+.news-article-form .btn-save:hover {
+    background-color: var(--btn-hover) !important;
+}
+.news-article-form .article-category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.news-article-form .article-category .article-name {
+    width: 67%;
+}
+.news-article-form .article-category .Category-name {
+    width: 32%;
+}
+.news-article-form .input-article {
+    width: 550px;
+}
+.news-article-form .input-Category {
+    width: 300px;
+}
+.news-article-form .input-article,
+.news-article-form .input-Category,
+.news-article-form .Content-tx,
+.news-article-form .date-input {
+    outline: none;
+    border: 0;
+    background-color: rgba(217, 217, 217, 0.17);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    height: 35px;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    padding: 0 10px;
+    width: 100%;
+}
+.news-article-form .Content-txt {
+    height: 270px;
+    width: 100%;
+    background-color: rgba(217, 217, 217, 0.17);
+    outline: none;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.news-article-form .date-input {
+    width: 200px;
+}
+.news-article-form .drog-drop {
+    width: 100%;
+    height: 230px;
+    border: 2px dashed var(--Primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(24, 24, 24, 0.89);
+    border-radius: 6px;
+}
+
+.news-article-form .drog-drop p.icon {
+    font-size: 50px;
+}
+.news-article-form .drog-drop span {
+    color: var(--Primary);
+}
+.news-article-form .cancle-save {
+    width: fit-content;
+}
+@media (max-width:1140px) {
+    .news-article-form .article-category .article-name {
+        width: 100%;
+    }
+    .news-article-form .article-category .Category-name {
+        width: 100%;
+    }
+    .news-article-form .cancle-save {
+        width: 100%;
+    }
+    .news-article-form .input-article,
+    .news-article-form .input-Category,
+    .news-article-form .Content-tx,
+    .news-article-form .date-input {
+        width: 100%;
+    }
+    .news-article-form .btn-cancle,
+    .news-article-form .btn-save {
+        width: 100% !important;
+        margin-top: 10px;
+    }
+}
+@media (max-width:767px) {
+    .news-article-form form{
+        display: flex;
+        flex-direction: column;
+        background-color: var(--course);
+        padding: 20px;
+        margin-top: -40px;
+    }
+    .news-article-form .cancle-save{
+        order: 5 !important;
+    }
+    .news-article-form .article-category{
+        order: 2 !important;
+    }
+    .news-article-form .article-contect{
+        order: 3 !important;
+    }
+    .news-article-form .public{
+        order:4 !important;
+    }
+    .news-article-form .drop-up {
+        order: 1  !important;
+
+
+    }
+}

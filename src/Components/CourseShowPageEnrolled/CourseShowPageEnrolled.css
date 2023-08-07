@@ -1,0 +1,75 @@
+.CourseShowPageEnrolled .section-header{
+    color:#fff !important;
+    margin-top:160px !important;
+
+}
+.CourseShowPageEnrolled{
+    padding-top: 10rem;
+}
+.CourseShowPageEnrolled .instrusctor{
+    color:var(--Primary);
+}
+.CourseShowPageEnrolled .course-name{
+    position: relative;
+    margin-bottom: 20px;
+}
+.CourseShowPageEnrolled .course-name::after{
+    content: "";
+    width: 7%;
+    height: 2px;
+    background-color: var(--Primary);
+    top:50px;
+    position: absolute;
+    left:0;
+    bottom: 10px;
+}
+
+.CourseShowPageEnrolled .para-course{
+    color:#eee;
+}
+.CourseShowPageEnrolled span{
+    color:#fff;
+}
+.CourseShowPageEnrolled img{
+    width: 100%;
+}
+.CourseShowPageEnrolled .paragroup{
+    background: #0808082b;
+    padding: 20px;
+
+}
+.CourseShowPageEnrolled .paragroup .title{
+    color:#eee;
+}
+.CourseShowPageEnrolled .paragroup p{
+    font-size: 13px;
+    color:#eee;
+}
+
+.CourseShowPageEnrolled .enrolls{
+    padding: 4px 93px;
+    background: var(--Primary);
+    color: white;
+    display: block;
+    border-radius: 5px;
+    text-transform: uppercase;
+    width: 100%;
+    margin-top: 15px;
+    border: 0;
+}
+.CourseShowPageEnrolled .item{
+    background: #000;
+    padding: 6px 18px;
+    border-radius: 1px;
+    margin-bottom: 10px;
+
+}
+.CourseShowPageEnrolled .lesson{
+    padding: 12px 10px;
+}
+.CourseShowPageEnrolled .icon{
+    color:var(--Primary);
+    margin-right: 10px;
+}
+
+

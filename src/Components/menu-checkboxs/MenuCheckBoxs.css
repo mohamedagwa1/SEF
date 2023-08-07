@@ -1,0 +1,272 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+.menu-job-box1 {
+  background-color: var(--Top-bg);
+  font-family: var(--font-family);
+
+}
+.menu-job-box1 .btn {
+  color: #fff;
+  font-weight: var(--fw-600);
+}
+.menu-job-box1  .btn:hover {
+  color: #fff !important;
+  background-color: var(--btn-hover) !important;
+}
+/* .menu-job-box  .job-screen {
+  background-color: rgb(34, 33, 33);
+  color: #fff;
+  font-family: var(--font-family);
+} */
+/*Search section */
+
+.menu-job-box1  .form-control {
+  width: 70%;
+  border-radius: 5px 0px 0px 5px / 5px 0px 0px 5px;
+  display: inline-block;
+}
+.menu-job-box1 .form-inline .btn {
+  width: 30%;
+  border: none;
+  background-color: var(--btn-defauit);
+  border-radius: 0;
+  border-radius: 0% 5px 5px 0% / 0% 5px 5px 0%;
+  vertical-align: baseline;
+}
+
+.menu-job-box1 .input-group {
+  width: 80%;
+}
+.menu-job-box1  .input-group-text {
+  text-align: center;
+  background-color: var(--Primary);
+  width: 30%;
+  color: #fff !important;
+  font-weight: var(--fw-600);
+  justify-content: center;
+}
+.menu-job-box1  input.empty {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  color: red;
+}
+
+.menu-job-box1  .mainLoginInput::-webkit-input-placeholder {
+  font-family: FontAwesome;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: var(--Primary);
+}
+
+.menu-job-box1  .mainLoginInput::-moz-placeholder {
+  font-family: FontAwesome;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: hsl(9, 40%, 60%);
+}
+
+.menu-job-box1 .mainLoginInput:-ms-input-placeholder {
+  font-family: FontAwesome;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: hsl(9, 40%, 60%);
+}
+.menu-job-box1  .menu-job1 {
+  flex: 30%;
+  background-color: rgba(0, 0, 0, 0.19);
+  /* width: 362px; */
+  /* padding-bottom: 1.2rem; */
+  padding: 20px;
+  height: 90%;
+  border-radius: 5px;
+}
+.menu-job-box1  .menu-section1 {
+  padding: 20px;
+}
+
+.menu-job-box1  .fitter-container1 {
+  width: 95%;
+  height: 62px;
+  background-color: rgba(17, 17, 17, 0.56);
+}
+/* .filter {
+} */
+.menu-job-box1  .clear-all1 {
+  color: var(--Primary);
+  border-radius: 5px;
+}
+/* .location-form {
+  width: 100%;
+  color: #fff;
+} */
+/*--------Select form*/
+.menu-job-box1  .form-select {
+  width: 95%;
+  height: 49px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: rgba(86, 85, 85, 0.079);
+  --bs-form-select-bg-img: url(data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3e%3cpath fill=%27none%27 stroke=%27%23343a40%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27m2 5 6 6 6-6%27/%3e%3c/svg%3e);
+
+  border-color: #00000000 !important;
+  border-bottom: 1px solid #efefef !important;
+}
+
+.menu-job-box1  .form-select:focus {
+  background-color: rgba(86, 85, 85, 0.079);
+  text-align: center;
+  background-color: rgba(217, 217, 217, 0.17);
+  border-color: #00000000 !important;
+  outline: 0;
+  transition: all 0.3s ease-in;
+}
+.menu-job-box1  option.options-location {
+  color: #fff;
+  background-color: #292828 !important;
+}
+/* Check boxs */
+.menu-job-box1  .form-check-input:checked {
+  background-color: #fd9d0d;
+  border-color: #bdfd0d;
+}
+.menu-job-box1  .logo-comp1 img {
+  display: inline-block;
+  width: 66px;
+  height: 50px;
+}
+
+/* */
+.menu-job-box1  .contacts-job1 {
+  background-color: rgba(0, 0, 0, 0.19);
+  flex: 70%;
+  /* padding: 2rem 2rem 5rem 2rem; */
+  height: 90%;
+  padding: 20px;
+}
+
+.menu-job-box1  span img {
+  width: 66px;
+  height: 50px;
+}
+.menu-job-box1  .onsite1 {
+  /* margin-right: 1em; */
+  text-align: end;
+}
+.menu-job-box1  .onsite-icon1 {
+  color: var(--Primary);
+  margin-right: 5px;
+}
+.menu-job-box1  .search-key1 span button {
+  color: #fff;
+}
+.menu-job-box1  .btn-apply1 {
+  text-align: end;
+}
+.menu-job-box1  .btn-apply1 button {
+  width: 20%;
+  background-color: var(--Primary) !important;
+}
+/* @media (max-width: 767px) {
+  .form-control {
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  .btn {
+    width: 100%;
+    border-radius: 5px;
+  }
+} */
+.menu-job-box1  .form-inline .bar-icon1 {
+  display: none;
+}
+.menu-job-box1  .onsite-mob-view1 {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .menu-job-box1 .form-inline {
+    margin-top: 10px;
+  }
+  .menu-job-box1  .form-inline input {
+    width: 345px;
+    border-radius: 5px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  .menu-job-box1  .form-inline button {
+    width: 300px !important;
+    border-radius: 5px !important;
+  }
+  .menu-job-box1  .form-inline .bar-icon1 {
+    display: inline;
+    background-color: rgba(17, 17, 17, 0.56);
+    width: 55px;
+    height: 51px;
+    color: var(--Primary);
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 6px;
+  }
+  /* .form input {
+    width: 345px;
+    height: 47px;
+  } */
+  .menu-job-box1  .menu-job1 {
+    display: none;
+  }
+  .menu-job-box1  .contacts-job1 {
+    flex-shrink: 0;
+    width: 353px;
+    height: 1015px;
+  }
+  .menu-job-box1  .btn-apply1 button {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .menu-job-box1  .comp-name1 {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+  .menu-job-box1  .onsite-web-view1 {
+    display: none;
+  }
+  .menu-job-box1  .onsite-mob-view1 {
+    display: inline;
+    margin-left: 4px;
+  }
+  .menu-job-box1  .minmiz-font1 {
+    font-size: 15px;
+  }
+  .menu-job-box1  .job-company-post1 span {
+    display: block;
+  }
+}
+/* @media (min-width: 1200px) {
+  .menu-job {
+    height: 90%;
+    display: flex;
+    flex-shrink: 0;
+    display: none;
+  }
+  .contacts-job {
+    flex-shrink: 0;
+    width: 353px;
+    height: 1015px;
+  }
+} */
+

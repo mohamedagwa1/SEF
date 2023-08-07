@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.Welcome_Student {
+  background-image: url(../../assets/images/secondary_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Welcome_Student .overlay-welcome {
+  background: linear-gradient(
+    180deg,
+    rgba(24, 24, 24, 0.89) 0%,
+    rgba(27, 26, 26, 0.93) 47.92%,
+    #1a1919 100%
+  );
+  width: 100%;
+  padding-top: 14em;
+  padding-bottom: 15px;
+}
+.Welcome_Student .Date_portal p {
+  color: var(--white);
+}
+.Welcome_Student .side-bar-headerp {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  color: var(--white);
+  margin-bottom: 8px;
+}
+.Welcome_Student .hr-welcome {
+  height: 1px;
+  width: 8%;
+  background-color: var(--secondary);
+  margin-bottom: 8px;
+}
+.Welcome_Student .welcome-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  align-content: center;
+}
+.Welcome_Student h1 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43.57px;
+  color: var(--white);
+}
+.Welcome_Student h1 span {
+  color: var(--btn-defauit);
+}
+.Welcome_Student Button {
+  text-transform: uppercase;
+  background-color: var(--btn-defauit) !important;
+  border: 0;
+  width: 155px;
+  height: 45px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.36px;
+}
+.Welcome_Student Button:hover {
+  background-color: var(--btn-hover) !important;
+}
+
+/*dashboard-student*/
+.Welcome_Student .dashboard-student {
+  background-color: #00000030;
+  height: 199px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 40px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.Welcome_Student .dashboard-student h2 {
+  display: inline-block;
+  border-radius: 5px;
+  line-height: 29.05px;
+  color: var(--white);
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: left;
+  width: 10%;
+}
+.Welcome_Student .dashboard-student .content {
+  width: 262px;
+}
+.Welcome_Student .dashboard-student .content.md {
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.Welcome_Student .dashboard-student .content-numbers {
+  border: var(--btn-defauit) 1px solid;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58.09px;
+  padding: 15.5px 30.5px;
+  border-radius: 5px;
+  position: relative;
+  right: 15px;
+  color: var(--white);
+}
+/*progress-welcome*/
+.Welcome_Student .progress-welcome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Welcome_Student .progress-welcome .content p {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.05px;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.Welcome_Student .progress-welcome .progress {
+  margin-left: 10px;
+  width: 97%;
+}
+.progress,
+.progress-stacked {
+  padding: 0 !important;
+  --bs-progress-bar-bg: var(--btn-defauit);
+}
+/*Exam-today*/
+.Welcome_Student .Exam-today {
+  width: 741px;
+  background-color: var(--exam-today);
+  border-radius: 5px;
+  margin: 50px 0 40px 0;
+}
+.Welcome_Student .Exam-today .Exam-today-content {
+  padding-top: 31.5px;
+  padding-bottom: 31.5px;
+  text-align: left;
+}
+.Welcome_Student .not-exist span {
+  color: var(--white);
+  font-size: 24px;
+  font-family: 600;
+  line-height: 29.05px;
+  text-transform: uppercase;
+  position: relative;
+}
+.Welcome_Student .Exam-today .Exam-today-content .Exam-today-icon {
+  font-size: 56px;
+  font-weight: 300;
+  color: var(--white);
+}
+.Welcome_Student .not-exist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  /* display: none; */
+}
+
+.Welcome_Student .exist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  display: none;
+}
+.Welcome_Student .exist span {
+  position: relative;
+  color: var(--white);
+  font-size: 24px;
+  font-family: 600;
+  line-height: 29.05px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 991px) and (min-width: 200px) {
+  .Welcome_Student .progress-welcome-container {
+    margin-top: -32rem;
+  }
+}
+@media (max-width: 991px) and (min-width: 700px) {
+  .Welcome_Student .progress-welcome-container {
+    margin-top: -29rem;
+  }
+}
+@media (max-width: 991px) {
+  .Welcome_Student .hr-welcome {
+    width: 21%;
+  }
+  .Welcome_Student h1 {
+    margin-top: 30px;
+    font-size: 30px;
+    width: 70%;
+  }
+  .Welcome_Student Button {
+    width: 150px;
+    min-height: 40px;
+}
+  .Welcome_Student .welcome-content {
+    justify-content: center;
+    align-items: center;
+  }
+  .Welcome_Student {
+    background-position: 50%;
+  }
+  .Welcome_Student .dashboard-student .content.md {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .Welcome_Student .dashboard-student {
+    height: 100%;
+    padding: 45px 0;
+    margin-top: 8rem;
+  }
+
+  .Welcome_Student .Exam-today {
+    width: 99%;
+    margin-top: 27rem;
+  }
+
+  .Welcome_Student .exist Button {
+    margin-top: -10px;
+    width: 150px;
+    height: 40px;
+  }
+  .Welcome_Student .not-exist span {
+    padding-left: 10px;
+    position: relative;
+    width: 260px;
+    font-size: 20px;
+  }
+  .Welcome_Student .not-exist {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .Welcome_Student .exist {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .Welcome_Student .Exam-today .Exam-today-content .Exam-today-icon {
+    font-size: 52px;
+    width: 15%;
+  }
+}
+
+.std-portal h1,
+.std-portal h2,
+.std-portal h3,
+.std-portal h4,
+.std-portal h5,
+.std-portal h6,
+.std-portal p {
+  color: white;
+}
+.std-portal strong{
+    color:var(--Primary)
+}

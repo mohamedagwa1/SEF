@@ -1,0 +1,178 @@
+   :root {
+   /* Colors */
+   --Primary: #bf9b30;
+   --secondary: #edd587;
+   --Green: #34a853;
+   --Red: #ea4335;
+   --Grey: #817f7f;
+   --black: #1a1919;
+   --white: #fff;
+   --alpha-bg: #1515167e;
+   --top-bg: #151516be;
+   --footer-bg: #212121;
+   --content-bg: #2a2a2a;
+
+   /* Colors of Button */
+   --btn-defauit: #bf9b30;
+   --btn-hover: #e7bc3c;
+   --btn-disabled: #e1e1e1;
+   }
+    .main-color {
+   color: var(--Primary) !important;
+   }
+   .main-border-color {
+   border-color: var(--Primary) !important;
+   }
+   .Black-div {
+   background-color: var(--alpha-bg) !important;
+   }
+  .Black-bg {
+   background-color: var(--Black-color);
+   }
+ .Secondary-bg {
+   background: var(--Primary) !important;
+   }
+  .Default-bg {
+   background: var(--Primary) !important;
+   }
+    .bg:hover {
+   background: var(--Primary) !important;
+   }
+   .Disabled-bg {
+   background: var(--Grey) !important;
+   }
+   .Reject-bg {
+   background: var(--Red) !important;
+   }
+  
+  .bg-image {
+   background: url(../assets/images/secondary_background.jpg);
+
+   background-position: center;
+   background-size: cover;
+   min-height: 100vh;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   }
+
+    .bg-layer {
+   min-height: 100vh;
+   background: linear-gradient(
+      180deg,
+      rgba(24, 24, 24, 0.89) 0%,
+      rgba(27, 26, 26, 0.93) 47.92%,
+      rgba(26, 25, 25, 1) 100%
+   );
+   }
+   .icon {
+   cursor: pointer;
+   transition: all 0.4s ease;
+   }
+
+   .rounded-btn {
+   border-radius: 50px;
+   padding: 5px 15px;
+   width: 105px;
+   transition: all 0.4s ease;
+   }
+   .rounded-btn :hover {
+   background-color: var(--Hover-color) !important;
+   }
+ .search{
+    padding: 10px 50px;
+    border-radius: 24px;
+    background-color: #D9D9D92B;
+    border: 0;
+    transition: 0.3s;
+  }
+  .search:focus{
+  background-color: #D9D9D92B;
+}
+.form-control:focus {
+  box-shadow: 0 0 0 0.065rem rgba(191, 155, 48, 1);
+}
+   /* Media Query for mobile view */
+   @media (max-width: 767px) {
+       .search-container {
+      width: 100%;
+      margin-top: 10px;
+   }
+
+   .search-icon {
+      right: 10px;
+   }
+   }
+   .line-after {
+   position: relative;
+   width: fit-content;
+   }
+
+ .line-after::after {
+   content: "";
+   width: 80%;
+   border-bottom: 1px solid var(--Primary);
+   position: absolute;
+   left: 0px;
+   bottom: -4px;
+   height: 2px;
+   }
+  #search {
+   background: rgba(187, 186, 186, 0.189);
+   border: 1px solid transparent;
+   border-radius: 50px;
+   padding: 8px 85px;
+   width: 100%;
+   }
+   #search::placeholder {
+   text-align: center;
+   color: white;
+   font-size: 20px;
+   }
+  .search-container {
+   position: relative;
+   display: inline-block;
+   }
+
+   .search-icon {
+   position: absolute;
+   top: 50%;
+   right: 20px;
+   transform: translateY(-50%);
+   }
+ .hover-bg-color:hover {
+   background-color: var(--btn-hover) !important;
+   }
+  .hover-color:hover {
+   color: var(--btn-hover) !important;
+   }
+
+  .transition {
+   transition: all 0.4s ease;
+   }
+
+   .dropdown-toggle::after {
+   display: none;
+   }
+   .dropdown-item:hover {
+   background-color: transparent;
+   }
+   .dropdown-menu {
+   /* background-color:var(--alpha-bg); */
+   background: rgb(128, 128, 128);
+
+   width: 100%;
+   }
+  .dropdown-item:hover,
+ .nav-link span:hover {
+   color: var(--Primary) !important;
+   }
+   .drop-down-bg {
+   background: rgba(128, 128, 128, 0.438);
+   width: 100%;
+   }
+  .font-s-20 {
+   font-size: 20px !important;
+   }
+ .font-s-18 {
+   font-size: 18px !important;
+   }

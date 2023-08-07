@@ -1,0 +1,111 @@
+.admin_Panel{
+    background-image: url('/src/assets/images/secondary_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 0 !important;
+    color: #FFF;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: normal !important;
+    padding-top: 150px !important;
+ 
+}
+.admin_Panel .adminpanel-container{
+   margin-top: 150px;
+}
+.admin_Panel .line{
+    border-bottom: 1px solid #EDD587;
+    width: 89px !important;
+}
+ 
+.admin_Panel .title_line{
+    position: relative;
+    width: fit-content;
+}
+.admin_Panel .title_line::before {
+    content: "";
+    position: absolute;
+    width: 85%;
+    height: 2px;
+    background-color: var(--secondary);
+    left: 0;
+    bottom: 20px;
+}
+.admin_Panel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1!important;
+    background: var(--overlay)
+}
+.admin_Panel .btn{
+    border-radius: 5px ;
+    border: none !important;
+    background-color:var(--Primary) !important;
+    font-size: 12px !important;
+    transition: var(--transition-1);
+}
+.admin_Panel .btn:hover{
+    background-color:var(--btn-hover) !important;
+}
+.admin_Panel .row2{
+    font-size: 14px!important;
+    background-color: rgba(0, 0, 0, 0.19)!important;
+}
+.admin_Panel tbody, td, tfoot, th, thead, tr {
+    border: none!important;
+}
+.pagination .icon{
+    color:var(--Primary);
+}
+.pagination li a{
+    background: transparent;
+    border: none;
+    color: #fff;
+    gap: -1;
+ }
+ .pagination li a:hover{
+    background-color:var(--Primary);
+    color: #fff;
+ }
+ @media (max-width:1200px) {
+    .admin_Panel .title{
+        display: block !important;
+        margin-bottom: 5px;
+    }
+    .admin_Panel .experience .title{
+        margin-right: 20px;
+    }
+    .admin_Panel .row1{
+        display: none;
+    }
+ }
+ @media (max-width:992px) {
+    .admin_Panel .adminpanel-container{
+        margin-top: 100px;
+    }
+    .admin_Panel .sidebar-part{
+        display: none;
+    }
+    .admin_Panel .data-part{
+        width: 100%;
+    }
+    .admin_Panel .btn-secondary{
+        height: 40px !important;
+    }
+ }
+ @media(max-width:767px){
+   .admin_Panel .btn{
+    width: 100%;
+   }
+   .admin_Panel .experience{
+    justify-content: flex-start;
+    gap: 100px;
+    padding: 0;
+   }
+
+ }
